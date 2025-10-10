@@ -140,7 +140,7 @@ export function ExperienceSection() {
             {experiences.map((exp, index) => (
               <motion.div
                 key={index}
-                className="p-6 rounded-lg border glass-morphism border-primary/20 hover:shadow-[0_0_30px_rgba(0,217,255,0.3)] transition-all duration-300"
+                className="p-6 rounded-lg border glass-morphism border-primary/20 hover:border-primary transition-all duration-300"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
