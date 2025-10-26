@@ -572,7 +572,7 @@ Available sections: ${Object.keys(sections).join(", ")}`,
               >
                 <ChevronRight size={14} className="text-cyan-400" />
                 <span className="text-yellow-400 capitalize">{key}:</span>
-                <span>{value}</span>
+                <span>{value as string}</span>
               </motion.div>
             ))}
           </div>
